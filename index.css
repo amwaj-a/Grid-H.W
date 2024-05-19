@@ -64,12 +64,13 @@ color: #28b9c1;
     text-align: left!important;
 }
 .card8{
+    /* width: 50VW; */
     background-color: #38d5f4;
 }
 .card8 div{
 margin: auto;;
-
-    width: 50vw;
+/* overflow: hidden; */
+    /* width: 10%; */
     /* border: 1px solid red; */
     border-radius: 50%;
     border: none;
@@ -103,7 +104,7 @@ border-radius: 20px;
 }
 .card10 div{
     margin: auto;
-    width: 50vw;
+    /* width: 50vw; */
     /* border: 1px solid red; */
     border-radius: 50%;
     border: none;
@@ -144,10 +145,12 @@ button{
 @media only screen and (min-width: 600px)
 {
     .containr div{
+        /* width: 22VW; */
+        height: max-content;
         /* border: 1px solid red; */
     }
     .containr{
-        width: 100vw;
+        /* width: 100vw; */
         display: grid;
         /* grid-template-columns: 1fr 1fr 1fr; */
 grid-template-areas:
