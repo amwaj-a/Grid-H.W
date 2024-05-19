@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+
+.containr div{
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+strong{
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{ color: rgba(128, 128, 128, 0.667);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* font-size: 1.2rem; */
+font-weight: 100;
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(55, 160, 160);
+}
+.cardBackground{
+    background-color: #f7f8f9;
+}
+.card4 h2,.card8 h2,.card9 h2,.card10 h2 ,.card12 h2{
+    color: #f7f8f9;
+    font-weight: 800;
+    /* width: 50%; */
+    padding: 0px 30px;
+    /* border: 10px solid red; */
+}
+
+.card4{
+    
+    background-color: #f05638;
+}
+.aStyle{
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.card5 h2{
+    padding: 0px 30px;
+
+}
+.card5 a{
+color: #28b9c1;
+}
+.card4 a{    color: #ffc80a;
+}
+.card6,.card7{
+    
+    text-align: left!important;
+}
+.card8{
+    background-color: #38d5f4;
+}
+.card8 div{
+margin: auto;;
+
+    width: 50vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    border: none;
+    background-color: #35cfed;
+}
+.card9{
+    position: relative;
+    background-color: #93b6b7;
+}
+.spanStyle{
+    padding: 5px;
+
+border-radius: 20px;
+    font-size: 0.5rem;
+    color: #f7f8f9;
+    /* display: blo; */
+}
+.card9 span{
+    background-color: #f05638;
+    position: absolute;
+    left: 10px;
+}
+.card11 span{
+    background-color: #7bc424;
+}
+.card11 h2{
+    padding: 0px 30px;
+}
+.card10{
+    background-color: #8f76bc;
+}
+.card10 div{
+    margin: auto;
+    width: 50vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    border: none;
+    background-color:#8166b0 ;
+}
+.card10 div p{
+    font-size: 0.6rem;
+}
+.card10 p{
+    color: #f7f8f9;
+}
+.card12{
+    text-align: left!important;
+
+    /* text-align: center; */
+    background-color: #2c2c2c;
+}
+
+button{
+    color: black;
+    background-color: #ffc80a;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+}
+@media only screen and (max-width: 600px)  {
+    .containr{
+    /* gap: 10px; */
+
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+        h2{
+            color: rgba(0, 0, 0, 0.799);
+        }
+    
+}
+@media only screen and (min-width: 600px)
+{
+    .containr div{
+        /* border: 1px solid red; */
+    }
+    .containr{
+        width: 100vw;
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+grid-template-areas:
+"item1 item2 item3 item3"
+"item4 item5 item6 item7"
+"item8 item9 item9 item7"
+"item10 item11 item12 item12"
+
+;
+        }
+.card1{
+    grid-area: item3;
+}
+.card2{
+    grid-area: item1;
+}
+.card3{
+    grid-area: item2;
+}
+.card4{
+    grid-area: item4;
+}
+.card5{
+    grid-area: item8;
+}
+.card6{
+    grid-area: item5;
+}
+.card7{
+    grid-area: item6;
+}
+
+.card8{
+    grid-area: item10;
+}
+.card9{
+    grid-area: item9;
+}.card10{
+    grid-area: item7;
+}.card11{
+    grid-area: item11;
+}.card12{
+    grid-area: item12;
+}
+
+
+    }
